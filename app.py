@@ -42,7 +42,7 @@ def format_slug(name: str) -> str:
     return urllib.parse.quote(slug)
 
 # --- Button Interaction ---
-if st.button("Get Random Surah"):
+if st.button("Your Today's Surah"):
     surah = random.choice(surahs)
     slug = format_slug(surah)
 
