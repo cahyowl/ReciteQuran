@@ -7,7 +7,7 @@ st.set_page_config(page_title="ReciteQuran", layout="centered")  # Must be first
 
 # --- App Header ---
 st.title("📖 ReciteQuran")
-st.write("Click the button to get your today's Surah, with links to YouTube recitation and Quran.com full text.")
+st.write("Bored? Stuck and feeling weary? Perhaps Allah is calling you to embrace the Quran today. Have you?")
 
 # --- Surah List ---
 surahs = [
